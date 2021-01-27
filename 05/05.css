@@ -1,8 +1,19 @@
-ad{display:block;}
-label{font-weight:bold;color:blue;}
-usn{font-size:14pt;color:red;}
-name{font-size:14pt;color:red;}
-college{font-size:14pt;color:red;}
-branch{font-size:14pt;color:red;}
-year{font-size:14pt;color:red;}
-email{font-size:14pt;color:red;}
+ad{
+  display: block;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+label{
+  font-weight: bold;
+  font-size: 13pt;
+  color: blue;
+}
+
+usn,name,college,branch,year,email{
+  font-size: 14pt;
+  color: red;
+}

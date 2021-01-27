@@ -10,33 +10,24 @@
       setTimeout('startTime()', 1000);
     }
   </script>
-
-  <style type="text/css">
-    h1 {
-      font-size: 70px;
-    }
-  </style>
 </head>
 
-<body bgcolor = "#349" text="white" onload="startTime()"> <br>
+<body bgcolor = "#349" text="white" onload="startTime()">
   <h1 align= "center"> The time from the local system is: <span id= "txt"></span></h1>
 </body>
-
 </html>
 
-</br>
-</br>
-</br>
-</br>
+</br></br></br></br>
 
 <?php
   $today = date("H:i:s");
 ?>
+
 <!DOCTYPE html>
 <html>
   <body>
-    <h1>
-    <?php echo "The time from the server is " . date("h:i:sa");?>
+    <h1 align= "center">
+      <?php echo "The time from the server is " . date("h:i:sa");?>
     </h1>
   </body>
 </html>
