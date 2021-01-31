@@ -19,9 +19,7 @@
 
 </br></br></br></br>
 
-<?php
-  $today = date("H:i:s");
-?>
+<?php  $today = date("H:i:s");  ?>
 
 <!DOCTYPE html>
 <html>
